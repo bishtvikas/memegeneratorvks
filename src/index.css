@@ -1,0 +1,126 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
+
+}
+body {
+  width: 100%;
+}
+.header--box {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.header--logo {
+  /* border: 1px solid black; */
+  display: flex;
+  height: 40px;
+  /* width: 20%; */
+  margin-left: 20px;
+}
+
+.header--logo--img {
+  height: 35px;
+}
+
+.header--title--box {
+  /* border: 1px solid black; */
+  width: 15%;
+  margin-right: 20px;
+  color: white;
+}
+
+.meme--box {
+  width: 55%;
+  /* background-color: red; */
+  margin: auto;
+  /* box-sizing: border-box; */
+  margin-top: 6px;
+  /* background-color: yellow; */
+}
+.inputs {
+  width: 100%;
+   /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+.input--place {
+  /* border:orange; */
+  width: 42%;
+  padding: 13px  ;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 5px grey;
+  text-transform: capitalize;
+}
+
+.input--place:focus{
+  outline: none;
+}
+
+
+.submit--box{
+   display: flex;
+  justify-content: center;
+}
+.submit--button {
+  /* background-color:pink; */
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+
+}
+.submit--button:hover{
+  /* background-color:pink; */
+  background: linear-gradient(90deg, #451756 1.18%, #a626d3 100%);
+
+}
+
+.meme-footage{
+  margin-top: 20px;
+    /* background-color: lightcoral; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 450px;
+  
+}
+
+.meme-pic{
+  /* box-sizing: border-box; */
+  /* background-size: fit-content; */
+  /* max-width: 100%; */
+  /* size: fit; */
+  height: 100%;
+}
+.imageText{
+  /* border: 1px solid black; */
+  color: yellow;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 1px black
+ }
+.upperText{
+  /* background-color: green; */
+  position: absolute;
+  padding: 1px 0 10px 0;
+}
+.lowerText{
+  /* background-color: red; */
+  position: absolute;
+  /* margin-top: 387px; */
+  margin-top: 390px;
+  padding: 12px 0 10px 0;
+}
